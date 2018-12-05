@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Creative design</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width ,initial-scale=1.0" >
+  <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+  <link rel="stylesheet"  href="asset/bootstrap/css/bootstrap.min.css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="asset/css/slicknav.min.css">
+  <link rel="stylesheet" type="text/css" href="flaticon/font/flaticon.css"> 
+ <!-- FontAwesome CSS -->
+ <link rel="stylesheet" href="asset/fonts/font-awesome/css/font-awesome.min.css" media="all" />
+ <!-- Owl Carousel -->
+ <link rel="stylesheet" href="asset/css/owl.carousel.min.css" media="all" />
+ <!-- Bootsnav Menu -->
+<link rel="stylesheet" href="asset/css/bootsnav.css" media="all" />
+  <link rel="stylesheet" href="asset/css/animate.min.css" media="all" />
+  <script src="asset/js/my.js"></script>
+  <script src="asset/js/jquery-3.3.1.min.js"></script>
+  <script src="asset/js/respond.js"></script>
+  <script type="text/javascript" src="asset/js/main.js"></script>
+  <script src="asset/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="asset/js/owl.carousel.min.js"></script>
+  <script type="text/javascript">
+  	jQuery(document).ready(function(){
+
+/*$(window).scroll(function(){
+	var top=$(window).scrollTop();
+
+
+	if(top>=112){
+		$("header").addClass('item1');
+	}
+	else
+		if($("header").hasClass('item1')){
+			$("header").removeClass('item1');
+		}
+});*/
+    $(window).resize(function(){
+   	var top=$(window).width();
+
+   	$('.width').text(top);
+   });
+
+});
+  </script>
+</head>
+<body>
+
+<!-- ::::::::::::::::::::: Header Section:::::::::::::::::::::::::: -->
+		<header>
+			<!-- start top bar -->
+			<div class="header-top-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="contact-top-area">
+								<p>
+									<i class="fa fa-phone"></i>
+									+880 123 456 789
+								</p>
+								<p>
+									<i class="fa fa-envelope"></i>
+									<a href="#">24hrsuport@domain.com</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="col-sm-4">
+							<div class="social-top-icon">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+								</ul>
+							</div><!--end-social-top-icon-->
+						</div><!--end col-sm-4---->
+
+					</div>
+				</div>
+			</div>
+			<!-- end top bar -->
+			
+	        <!-- Start Navigation -->
+	        <nav class="navbar navbar-default navbar-sticky bootsnav" style="height: 80px;">
+	            <!-- Start Top Search -->
+	            <div class="top-search">
+	                <div class="container">
+	                    <div class="input-group">
+	                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+	                        <input type="text" class="form-control" placeholder="Search">
+	                        <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+	                    </div>
+	                </div>
+	            </div>
+	            <!-- End Top Search -->
+
+	            <div class="container">
+	                <!-- Start Atribute Navigation -->
+	                <div class="attr-nav">
+	                    <ul>
+	                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+	                        <li class="dropdown">
+	                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+	                                <i class="fa fa-shopping-bag"></i>
+	                                <span class="badge">2</span>
+	                            </a>
+	                            <ul class="dropdown-menu cart-list">
+	                                <li>
+	                                    <a href="#" class="photo"><img src="assets/img/cart-1.jpg" class="cart-thumb" alt="" /></a>
+	                                    <h2><a href="#">Denim SlimFit Shirt </a></h2>
+	                                    <p>2x - <span class="price">$19.99</span></p>
+	                                </li>
+	                                <li>
+	                                    <a href="#" class="photo"><img src="assets/img/cart-3.jpg" class="cart-thumb" alt="" /></a>
+	                                    <h2><a href="#">Denim Polo Shirt</a></h2>
+	                                    <p>2x - <span class="price">$12.99</span></p>
+	                                </li>
+	                                <li class="total">
+	                                    <span class="pull-right"><strong>Total</strong>: $320.00</span>
+	                                    <a href="#" class="btn btn-primary btn-sm btn-cart">Cart</a>
+	                                </li>
+	                            </ul>
+	                        </li>
+	                    </ul>
+	                </div>
+	                <!-- End Atribute Navigation -->
+
+	                <!-- Start Header Navigation -->
+	                <div class="navbar-header">
+	                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+	                        <i class="fa fa-bars"></i>
+	                    </button>
+	                    <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" class="logo logo-scrolled" alt=""></a>
+	                </div>
+	                <!-- End Header Navigation -->
+
+	                <!-- Collect the nav links, forms, and other content for toggling -->
+	                <div class="collapse navbar-collapse" id="navbar-menu">
+	                    <ul class="nav navbar-nav navbar-right" data-in="" data-out="">
+	                        <li class="active"><a href="index.html">Home</a></li>
+	                        <li><a href="about.html">About Us</a></li>
+	                        <li><a href="services.html">Services</a></li>
+	                        <li class="dropdown">
+	                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Works</a>
+	                            <ul class="dropdown-menu">
+	                                <li><a href="portfolio.html">Work Showcase</a></li>
+	                                <li><a href="portfolio-details.html">Work Details</a></li>
+	                            </ul>
+	                        </li>
+	                        <li class="dropdown">
+	                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Press &amp; News</a>
+	                            <ul class="dropdown-menu">
+	                                <li><a href="blog.html">News Standard</a></li>
+	                                <li><a href="blog-details.html">News Details</a></li>
+	                                <li><a href="typography.html">Typography</a></li>
+	                            </ul>
+	                        </li>
+	                        <li><a href="contact.html">Contact</a></li>
+	                    </ul>
+	                </div><!-- /.navbar-collapse -->
+	            </div>
+	        </nav>
+	        <!-- End Navigation -->
+	        <div class="clearfix"></div>
+		</header> <!-- end header -->
+
+<section class="slider">
+	<div class="conrainer-fluid">
+		<div class="row">
+			<div class="header-slider hover1">
+		<div class="inside img-responsive" style="background-image: url('asset/images/slide_1.jpg');">
+			<div class="overlay"></div>
+               <div class="inside-caption">
+               	<h2>High Quality Materials In All Solutions</h2>
+               	<p>From small to large elements in our production we use only fines materials</p>
+               	<a href="#">READ MORE</a>
+               </div>
+		</div>
+		<div class="inside img-responsive" style="background-image: url('asset/images/slide_2.jpg');">
+			<div class="overlay"></div>
+               <div class="inside-caption">
+               	<h2>What You Can Imaging We Can Create</h2>
+               	<p>We are team of professionals who will build everything you can draw on a paper</p>
+               	<a href="#">READ MORE</a>
+               </div>
+		</div>
+
+	</div>
+		</div>
+	</div>
+	
+         
+</section>
+<div class="post-content">
+	<div class="container">
+		<div class="row">
+			<div class="post">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="post-item">
+						<a href="#" class="">
+							<img src="asset/images/pharma_big-360x203.jpg">
+						</a>
+						<div class="post-item-content">
+							<h5>Pharmaceutical Research</h5>
+							<p>Areas tackled in the most foundamental parts of the medical research include cellular and molecular biology, medical genetics,immunology, neuroscience and psychology.</p>
+							<a href="#" class="read-more">continue reading</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="post-item">
+						<a href="#">
+							<img src="asset/images/agrar_big-360x203.jpg">
+						</a>
+						<div class="post-item-content">
+							<h5>Agricultural Engineering</h5>
+							<p>Agricultural engineering may perform tasks such as planning, supervising and managing the building of irrigation, drainage,flood control systems, performing environmental.</p>
+							<a href="#" class="read-more">continue reading</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="post-item">
+						<a href="#">
+							<img src="asset/images/oil_big-360x203.jpg">
+						</a>
+						<div class="post-item-content">
+							<h5>Oil Exploration</h5>
+							<p>Hydrocarbon exploration (or oil and gas exploration) is the search by petroleum geologists and geophysicists for hydrocarbon deposits beneath the Earth's, surface such as oil and natural gas.</p>
+							<a href="#" class="read-more">continue reading</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="post-item">
+						<a href="#">
+							<img src="asset/images/construction-2-360x203.jpg">
+						</a>
+						<div class="post-item-content">
+							<h5>Construction Engineering</h5>
+							<p>Construction engineering is a professional discipline that deals with the designing, planning,construction and management of infrastructures such as railroads, buildings.</p>
+							<a href="#" class="read-more">continue reading</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="post-item">
+						<a href="#">
+							<img src="asset/images/soolar_big-360x203.jpg">
+						</a>
+						<div class="post-item-content">
+							<h5>Alternative Energy</h5>
+							<p>Alternative energy is often referenced as: any energy source that is an alternative to fossil fuel. These alternatives are intended to address concern about such fussil fuels</p>
+							<a href="#" class="read-more">continue reading</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="post-item">
+						<a href="#">
+							<img src="asset/images/metal_big-360x203.jpg">
+						</a>
+						<div class="post-item-content">
+							<h5>Metal Industry</h5>
+							<p>Metal prifiles sheet systems provide an efficient and reliable solution to the need to develop systems used with industrial, retrial and leisure applications with highest security.</p>
+							<a href="#" class="read-more">continue reading</a>
+						</div>
+					</div>
+				</div>								
+			</div>
+		</div>
+
+	</div> 
+	<div class="project">
+		<div class="container">
+			<div class="row">
+				<div class="vc_col-md-12">
+					<div class="project-area">
+						<div class="ind-title-wrap">
+							<h4>Recent Projects</h4>
+						</div>
+						<div class="vc-empty-space"></div>
+						<div class="project-slider">
+							<div class="project-item">
+								<img width="360" class="image-hover" src="asset/images/agrar-2-360x203.jpg">
+								<div class="project-overlay"></div>
+								<div class="project-caption">
+									<h6>State Crops</h6>
+									<a href="#" class="btn">MORE</a>
+								</div>
+						    </div>
+						    <div class="project-item">
+								<img width="360" class="image-hover" src="asset/images/construction-2-360x203.jpg">
+								<div class="project-overlay"></div>
+								<div class="project-caption">
+									<h6>Experimental Village</h6>
+									<a href="#" class="btn">MORE</a>
+								</div>
+						    </div>
+						    <div class="project-item">
+								<img width="360" class="image-hover" src="asset/images/metal-2-360x203.jpg">
+								<div class="project-overlay"></div>
+								<div class="project-caption">
+									<h6>Auto Body Sheet</h6>
+									<a href="#" class="btn">MORE</a>
+								</div>
+						    </div>
+						    <div class="project-item">
+								<img width="360" class="image-hover" src="asset/images/research-2-360x203.jpg">
+								<div class="project-overlay"></div>
+								<div class="project-caption">
+									<h6>Carbon Fiber</h6>
+									<a href="#" class="btn">MORE</a>
+								</div>
+						    </div>
+					    </div>
+				    </div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="project-bottom" style="background-image: url('asset/images/indcatabg.jpg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="request">
+						<div class="ind-cata">
+							<h4>LOOKING AN ADEQUATE SOLUTION FOR YOUR COMPANY?</h4>
+							<a href="#" class="btn">REQUEST A QUOTE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="offer">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-12">
+    				<div class="offer-header">
+    					<div class="header-caption">
+    						<h4>What We Can Offer</h4>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="offer-bottom">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-3 col-md-3 col-xs-12">
+    			<div class="vc-column-inner">
+    				<div class="wpb_wrapper">
+    					<div class="service">
+    						<div class="service-icon">
+    							<span class="flaticon-chemistry-atoms icon-color"></span>
+    							<div class="icon">
+    								<span class="flaticon-chemistry-atoms"></span>
+    							</div>
+    						</div>
+    						<h5>MOLECULAR RESEARCH</h5>
+    						<p>A materials is defined as a substance (most often a solid, but other condensed phases can be included) that is intended to be used for certain applications.</p>
+    						<a href="#" class="header-font read-more">READ MORE</a>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-sm-3 col-md-3 col-xs-12">
+    			<div class="vc-column-inner">
+    				<div class="wpb_wrapper">
+    					<div class="service">
+    						<div class="service-icon">
+    							<span class="flaticon-helmet icon-color"></span>
+    							<div class="icon">
+    								<span class="flaticon-helmet"></span>
+    							</div>
+    						</div>
+    						<h5>DEDICATED TEAM</h5>
+    						<p>Team designated for you is dedicated to you and all your requirements 24/7 and will not be working on other solution so maximal concentration is on your requirements.</p>
+    						<a href="#" class="header-font read-more">READ MORE</a>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-sm-3 col-md-3 col-xs-12">
+    			<div class="vc-column-inner">
+    				<div class="wpb_wrapper">
+    					<div class="service">
+    						<div class="service-icon">
+    							<span class="flaticon-bulb icon-color"></span>
+    							<div class="icon">
+    								<span class="flaticon-bulb"></span>
+    							</div>
+    						</div>
+    						<h5>LATEST STANDARDS</h5>
+    						<p>With every requirement we check latest standards which we will implement in our work so we guarantee that our work is top notch by the latest standards.</p>
+    						<a href="#" class="header-font read-more">READ MORE</a>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-sm-3 col-md-3 col-xs-12">
+    			<div class="vc-column-inner">
+    				<div class="wpb_wrapper">
+    					<div class="service">
+    						<div class="service-icon">
+    							<span class="flaticon-leaf icon-color"></span>
+    							<div class="icon">
+    								<span class="flaticon-leaf"></span>
+    							</div>
+    						</div>
+    						<h5>GREEN ENERGY</h5>
+    						<p>Unique solution for alternative energy for your building with solution as result of over 10 years of research in the electrical engineering by leading world experts.</p>
+    						<a href="#" class="header-font read-more">READ MORE</a>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		</div>
+    	</div>				
+    </div>
+    <div class="realize">
+    	<div class="container">
+    		<div class="row">
+    			<div class=" realize-bg col-md-12">
+    				<div class="offer-header">
+    					<div class="header-caption">
+    						<h4>From Idea To realization</h4>
+    					</div>
+    				</div>
+    				<div class="vc-empty-space"></div>
+    				<div class="realize-bottom">
+    					<div class="realize-tab">
+    						<ul class="nav nav-tabs tab-list">
+    							<li class="active"><a href="#content-01" class="tab-tilte" data-toggle="tab">Consulting</a></li>
+    							<li><a href="#content-02" class="tab-tilte" data-toggle="tab">Planning</a></li>
+    							<li><a href="#content-03" class="tab-tilte" data-toggle="tab">Preparation</a></li>
+    							<li><a href="#content-04" class="tab-tilte" data-toggle="tab">Execution</a></li>
+    							<li><a href="#content-05" class="tab-tilte" data-toggle="tab">Testing</a></li>
+    							<li><a href="#content-06" class="tab-tilte" data-toggle="tab">Finsh</a></li>
+    						</ul>
+    					</div>
+                          <div class="tab-content right-elements">
+                          	<div class="tab-pane active" id="content-01">
+                          	<div class="col-sm-6 right-img right-img">
+                          		<img class="img-responsive" src="asset/images/consulting-555x286.jpg">
+                          	</div>
+                          	<div class="col-sm-6 right-p">
+                          		<p>Our engineering consultants provide engineering-related services such as design, supervision, execution, repair, operation, maintenance, technology, creation of drawings and specifications, and make recommendations to public, companies, firms and industries.</p>
+								<p>From idea to realization most important step is consulting so we can analyze every aspect of the solution you require.</p>
+								<p>Here is important that you state all your requirements and our team of engineers with a lot of experience will present you with the possible solution for your needs.</p>
+                          	</div>
+                          </div>
+                          <div class="tab-pane" id="content-02">
+                          	<div class="col-sm-6 right-img">
+                          		<img class="img-responsive" src="asset/images/planing-471x243.jpg">
+                          	</div>
+                          	<div class="col-sm-6 right-p">
+                          		<p>Planning (also called forethought) is the process of thinking about and organizing the activities required to achieve a desired goal.</p>
+								<p>Production planning is the planning of production and manufacturing modules in a company or industry. It utilizes the resource allocation of activities of employees, materials and production capacity, in order to serve different customers.</p>
+								<p>Different types of production methods, such as single item manufacturing, batch production, mass production, continuous production etc. have their own type of production planning.</p>
+                          	</div>
+                          </div>
+                          <div class="tab-pane" id="content-03">
+                          	<div class="col-sm-6 right-img">
+                          		<img class="img-responsive" src="asset/images/preparation-471x243.jpg">
+                          	</div>
+                          	<div class="col-sm-6 right-p">
+                          		<p>In this step our engineers and architects finish their design and blueprints with last feedback from you before starting the execution of the project. Material is being shipped ( if working remotely ) or stored in required quantities for further usage.</p>
+								<p>Workers are being given detail instructions and clearing any <span id="result_box" class="short_text" lang="en"><span class="hps">doubts</span></span> with them on how thing are need to be done.</p>
+								<p>All tools is being prepared for shipping ( if working remotely ) and prepared for usage. In this step all is double checked so risk of large issue is minimal.</p>
+                          	</div>
+                          </div>
+                          <div class="tab-pane" id="content-04">
+                          	<div class="col-sm-6 right-img">
+                          		<img class="img-responsive" src="asset/images/execution-471x243.jpg">
+                          	</div>
+                          	<div class="col-sm-6 right-p">
+                          		<p>This step means that your solution is almost finished and now again our engineers step in to do the final testing and fine tunes if required. Here every inch of the solution is being thoroughly testing for any inconsistencies and if there are any it needs to be fixed.</p>
+								<p>This is the step which can prolong project finish but in our 40 years of experience this was never the case.</p>
+								<p>During the execution step team is designing testing steps which are planned so everything can go smoothly and without any unplanned failures.</p>
+                          	</div>
+                          </div>
+                          <div class="tab-pane" id="content-05">
+                          	<div class="col-sm-6 right-img">
+                          		<img class="img-responsive" src="asset/images/testings-471x243.jpg">
+                          	</div>
+                          	<div class="col-sm-6 right-p">
+                          		<p>This step means that your solution is almost finished and now again our engineers step in to do the final testing and fine tunes if required. Here every inch of the solution is being thoroughly testing for any inconsistencies and if there are any it needs to be fixed.</p>
+								<p>This is the step which can prolong project finish but in our 40 years of experience this was never the case.</p>
+								<p>During the execution step team is designing testing steps which are planned so everything can go smoothly and without any unplanned failures.</p>
+                          	</div>
+                          </div>
+                          <div class="tab-pane" id="content-06">
+                          	<div class="col-sm-6 right-img">
+                          		<img class="img-responsive" src="asset/images/finish-471x243.jpg">
+                          	</div>
+                          	<div class="col-sm-6 right-p">
+                          		<p>This step means that the project is finished and fully functional without the issue.</p>
+								<p>At this step you or your team will receive complete documentation on how to use solution together with certain amount of educational hours depending on the project complexity.</p>
+								<p>Beside on how to use documentation you will also receive list of possible issues, which can occur as a result of the exploitation and material consumption, with the explanation on how to resolve them in a safe and precise way.</p>
+                          	</div>
+                          </div>
+                          </div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="others">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-12">
+    				<div class="vc_column-inner">
+    					<div class="wpb_wrapper">
+	    					<div class="offer-header">
+		    					<div class="header-caption">
+		    					   <h4 class="other-title">What Others Say</h4>
+		    					</div>
+	    				    </div>
+	    				    <div class="vc-empty-space"></div>
+	    				    <div class="testimonials">
+	    				    	<div class="testimonials-contents">
+	    				    		<div class="testimonial-content content-01 active-p">
+										We are pleased to say that work done by this company is outstanding. Everything what we asked was done on time and with high precision by the professional team. With proper briefing there is no room for any mistakes. During the project execution team has applied requested changes in professional manner.
+									</div>
+									<div class="testimonial-content content-02">
+										We had requests in multiple industry branches and once we found Industry we were sure that we would need to talk only to one organization about all our needs. Industry with its branches in meta, electrical, oil, automotive, agricultural industry had handled our request from there. We are happy to say that every job was done on time and with high quality.
+									</div>
+									<div class="testimonial-content content-03">
+										In the need of the total cultivation control and overseeing of the agriculture processes we've selected Industry which ended to be our best corporation decisions. All our problem were solved quickly and professionally by the Industry team.
+									</div>
+									<div class="testimonial-content content-04">
+										In the need of large quantity of the metal products like profile and sheets we've found that all we need can be found by the Industry. Our automotive company with millions of cars produced each year has found suppler of the high precision sheets which can be used in all our cars.
+									</div>
+	    				    	</div>
+	    				    	<div class="col-sm-2"></div>
+						    	   <div class="col-sm-8">
+									    <div class="testimonials-slider">
+											<div class="item-1 testimonial-item-bg" id="item1-bg">
+												<div class="testimonial-item">
+													<img width="80" height="80" src="asset/images/avatar-3-80x80.jpg">
+										            <h5>Pamela Heart</h5>
+										            <p class="subtitle">CEO Director</p>					
+										            <div class="grade">
+										            	<p class="grade1 grade-color"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+										            </div>
+												</div>
+								            </div>
+								            <div class="item-2" id="item2-bg">
+								            	<div class="testimonial-item">
+									            	<img width="80" height="80" src="asset/images/avatar-4-80x80.jpg">
+										            <h5>Sandy Storm</h5>
+										            <p class="subtitle">PR Manager</p>					
+										            <div class="grade">
+										            	<p class="grade2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+										            </div>
+								            	</div>
+											</div>
+											<div class="item-3">
+												<div class="testimonial-item">
+													<img width="80" height="80" src="asset/images/avatar-2-80x80.jpg">
+													<h5>Mark Doe</h5>
+													<p class="subtitle">Project Meanie</p>					
+													<div class="grade">
+														<p class="grade3"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+													</div>
+												</div>
+								            </div>
+											<div class="item-4">
+												<div class="testimonial-item">
+													<img width="80" height="80" src="asset/images/avatar-5-80x80.jpg">
+													<h5>Nick Star</h5>
+													<p class="subtitle">Project Manager</p>					
+													<div class="grade">
+														<p class="grade4"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+													</div>
+												</div>
+											</div>
+							           </div>
+									</div>
+
+	    				    	    <div class="col-sm-2"></div>
+	    				    </div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="clients-areaH">
+    	<div class="container">
+    		<div class="col-sm-12">
+    			<div class="vc_column-inner">
+    				<div class="wpb_wrapper">
+    					<div class="offer-header">
+		    				<div class="header-caption">
+		    					<h4 class="other-title client-title">Our Clients</h4>
+		    				</div>
+	    				</div>
+	    				<div class="vc-empty-space"></div>
+	    				<div class="clients-slider">
+	    					<div class="client transition">
+	    					   <a href="#">
+	    					   	 <img src="asset/images/logo-1.png">
+	    					   </a>
+	    					</div>
+	    					<div class="client transition">
+	    					   <a href="#">
+	    					   	 <img src="asset/images/logo-2.png">
+	    					   </a>
+	    					</div>
+	    					<div class="client transition">
+	    					   <a href="#">
+	    					   	 <img src="asset/images/logo-3.png">
+	    					   </a>
+	    					</div>
+	    					<div class="client transition">
+	    					   <a href="#">
+	    					   	 <img src="asset/images/logo-4.png">
+	    					   </a>
+	    					</div>
+	    					<div class="client transition">
+	    					   <a href="#">
+	    					   	 <img src="asset/images/logo-5.png">
+	    					   </a>
+	    					</div>
+	    					<div class="client transition">
+	    					   <a href="#">
+	    					   	 <img src="asset/images/logo-6.png">
+	    					   </a>
+	    					</div>
+	    					<div class="client transition">
+	    					   <a href="#">
+	    					   	 <img src="asset/images/logo-7.png">
+	    					   </a>
+	    					</div>
+	    					<div class="client transition">
+	    					   <a href="#">
+	    					   	 <img src="asset/images/logo-8.png">
+	    					   </a>
+	    					</div>
+	    				</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</div>
+<section class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-4 col-xs-12">
+				<div class="about">
+					<div class="about-header">
+		    			<div class="about-caption">
+		    				<h4 class="about-title">About Us</h4>
+		    			</div>
+	    			</div>
+	    			<div class="about-bottom">
+	    				<p><img src="asset/images/bottom-logo.png"></p>
+	    				<p>With over 25 years of experience in all industry branches we've built well known name.</p>
+	    				<p>Our solutions are used in over 150 countries supporting millions of customers in domain of electricity, construction, metal profiles, gasoline, etc.</p>
+	    			</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-4 col-xs-12">
+				<div class="solution">
+					<div class="solution-header">
+		    			<div class="solution-caption">
+		    				<h4 class="solution-title">Our Solutions</h4>
+		    			</div>
+	    			</div>
+	    			<div class="menu-bottom">
+	    				<ul>
+	    					<li><a href="#">Agricultural Engineering</a></li>
+	    					<li><a href="#">Alternative Energy</a></li>
+	    					<li><a href="#">Construction engineering</a></li>
+	    					<li><a href="#">Metal Industry</a></li>
+	    					<li><a href="#">Oil Exploration</a></li>
+	    					<li><a href="#">Pharmaceutical Research</a></li>
+	    				</ul>
+	    			</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-4 col-xs-12">
+				<div class="footer-social">
+					<div class="social-header">
+						<div class="social-caption">
+							<h4 class="social-title">Follow Us</h4>
+						</div>
+					</div>
+					<div class="social-icon">
+						<a href="#" class="btn"><span class="fa fa-facebook"></span></a>
+						<a href="#" class="btn"><span class="fa fa-twitter"></span></a>
+						<a href="#" class="btn"><span class="fa fa-google"></span></a>
+						<a href="#" class="btn"><span class="fa fa-linkedin"></span></a>
+						<a href="#" class="btn"><span class="fa fa-pinterest"></span></a>
+						<a href="#" class="btn"><span class="fa fa-youtube"></span></a>
+						<a href="#" class="btn"><span class="fa fa-flickr"></span></a>
+						<a href="#" class="btn"><span class="fa fa-behance"></span></a>
+					</div>
+				</div>
+				<div class="subscribe">
+					<div class="subscribe-header">
+						<div class="subscribe-caption">
+							<h4 class="subscribe-title">Subscribe</h4>
+						</div>
+					</div>
+					<div class="subscribe-form">
+						<div class="industry-form">
+							<input type="text" class="form-controll" placeholder="Input email here...">
+							<a href="#" class="btn btn-default subscribe">
+								<i class="fa fa-rss"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="copyright">
+	<div class="container">
+		<div class="text-center">
+			All Rights Reserved &copy 
+		</div>
+	</div>
+</section>
+ <script src="asset/js/jquery-2.1.3.min.js"></script>
+ <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+ <script src="asset/js/bootsnav.js"></script>
+<script src="asset/js/owl.carousel.min.js"></script>
+<script src="asset/js/wow.min.js"></script>
+<script src="asset/js/jquery.slicknav.min.js"></script>
+<script src="asset/js/ajaxchimp.js"></script>
+<script src="asset/js/ajaxchimp-config.js"></script> 
+<script>
+    new WOW().init();
+</script>
+ 
+</body>
+</html>
